@@ -49,3 +49,12 @@ Imagine we have this passage of text where headings are nested based on the stru
 <p>Remember, that there are 6 levels of headings we can use: h1, h2, h3, h4, h5, h6.</p>
 ```
 
+[CodePen](https://codepen.io/GK3000/pen/gOzwaKE)
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOzwaKE" data-user="GK3000" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/GK3000/pen/gOzwaKE">
+  html_002</a> by George K (<a href="https://codepen.io/GK3000">@GK3000</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
