@@ -65,4 +65,4 @@ How browser will show this ↓↓↓
 
 </main>
 
-[CodePen with the code](https://codepen.io/GK3000/pen/xxjEBQX)
+> [CodePen with the code](https://codepen.io/GK3000/pen/xxjEBQX)
