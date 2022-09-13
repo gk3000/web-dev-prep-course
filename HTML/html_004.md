@@ -67,7 +67,7 @@ With containers we also have some which do have a semantic meaning:
 `<nav>` represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents
 
 
-> `<div>` element doesn't have any semantic meaning, it tells browser nothing about what kind of content it has. So while we can layout the whole page with divs only, it would hurt our SEO. LEt's try to use elements with semantic meaning where appropriate and use div just for the sake of CSS or to group elements for other purposes without changing the semantic structure of our pages.
+> `<div>` element doesn't have any semantic meaning, it tells browser nothing about what kind of content it has. So while we can layout the whole page with divs only, it would hurt our SEO. Let's try to use elements with semantic meaning where appropriate and use div just for the sake of CSS or to group elements for other purposes without changing the semantic structure of our pages.
 
 ## span
 
