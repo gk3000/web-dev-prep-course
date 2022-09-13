@@ -12,3 +12,4 @@ When we start building the webpage we wrap every content item into the correspon
 
 Why do we need to do so? Because otherwise, unlike humans, browsers can not really understand what content we want to render (display in the page). 
 
+So HTML is the language behind every webpage, all the elements of content we see in the browser when we visit any website are rendered from the HTML markup. 

@@ -10,7 +10,7 @@ The syntax for the most tags is that we have an opening and closing tag with the
 <p>I am just a paragraph of text. I have to be inside the <p> tag </p>
 ```
 
-If in the content we have several paragrpahs we can put them into several "p" tags:
+If in the content we have several paragraphs we can put them into several "p" tags:
 
 ```html
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -49,7 +49,7 @@ Imagine we have this passage of text where headings are nested based on the stru
 <p>Remember, that there are 6 levels of headings we can use: h1, h2, h3, h4, h5, h6.</p>
 ```
 
-[CodePen](https://codepen.io/GK3000/pen/gOzwaKE)
+> Check out this [CodePen](https://codepen.io/GK3000/pen/gOzwaKE) to see how those elements are rendered.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="html_002" src="https://codepen.io/GK3000/embed/gOzwaKE?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GK3000/pen/gOzwaKE">
