@@ -68,3 +68,13 @@ How browser will show this ↓↓↓
 ---
 
 > [CodePen with the code](https://codepen.io/GK3000/pen/xxjEBQX)
+
+So let's break down what we have created. 
+
+You can see, that first we open the tag *main* and close it in the end. Everything inside it belongs to *main*. 
+
+Then we begin with the heading of the first level followed by the image. After that we have a "subheading" represented by *h2* with couple of paragraphs after. 
+
+Then we have a *section* showing browser that this part of content with it's own heading and list of hobbies is grouped together (thanks to *section*). 
+
+Wasn't that hard, was it? 
