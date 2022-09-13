@@ -15,7 +15,7 @@ Headings to use on the headings of the pages, sections or subsections:
 <h6>Heading of level 6</h6>
 ```
 
-How browser will show this:
+How browser will show this ↓↓↓
 
 <h1>Heading of level 1</h1>
 <h2>Heading of level 2</h2>
@@ -30,7 +30,7 @@ How browser will show this:
 <p>Paragraphs to wrap text paragraph inside.</p>
 ```
 
-How browser will show this:
+How browser will show this ↓↓↓
 
 <p>Paragraphs to wrap text paragraph inside.</p>
 
@@ -44,7 +44,7 @@ How browser will show this:
 </ul>
 ```
 
-How browser will show this:
+How browser will show this ↓↓↓
 
 <ul>
 	<li>unordered list with the list items inside</li>
@@ -61,7 +61,7 @@ How browser will show this:
 	<li>it could be a list of steps to follow or any other numbered items</li>
 </ol>
 ```
-How browser will show this:
+How browser will show this ↓↓↓
 
 <ol>
 	<li>this is an ordered list</li>
@@ -80,7 +80,7 @@ To render an image with HTML we need to use "img" tag:
 <img src="https://raw.githubusercontent.com/gk3000/artsy_bananas/main/artsy_bananas_00.png" alt="Artsy banana" />
 ```
 
-How browser will show this:
+How browser will show this ↓↓↓
 
 <img src="https://raw.githubusercontent.com/gk3000/artsy_bananas/main/artsy_bananas_00.png" alt="Artsy banana" />
 
@@ -102,7 +102,7 @@ To add a button we will use a "button" element like so:
 
 This snippet will render a button with the label "Click me"
 
-How browser will show this:
+How browser will show this ↓↓↓
 
 <button>Click me</button>
 

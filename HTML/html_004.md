@@ -44,87 +44,43 @@ How browser will show this ↓↓↓
 
 ---
 
+## Semantic meaning 
+
+When we are talking about HTML and some elements we mention a phrase *semantic meaning*. What is it? 
+
+Most of the elements in HTML have a meaning to the browser in a way that browser (and search engines parsing your pages) will know what type of content you have by reading the HTML elements. 
+
+If a browser sees `<p>` tag it will know that it is a paragraph. If it will see `<h1>` tag it will know it is a heading of the first level. And so on. 
+
+With containers we also have some which do have a semantic meaning:
+
+`<section>`, `<article>` group together content focused on the same topic
+
+`<footer>` sits in the end of a page and contains all the secondary footer content like information about the author of the section, copyright data or links to related documents
+
+`<header>` represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements
+
+`<aside>` HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes
+
+`<main>` represents the dominant content of the body of a document, the main content of your page or a section of it
+
+`<nav>` represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents
+
+
+> `<div>` element doesn't have any semantic meaning, it tells browser nothing about what kind of content it has. So while we can layout the whole page with divs only, it would hurt our SEO. LEt's try to use elements with semantic meaning where appropriate and use div just for the sake of CSS or to group elements for other purposes without changing the semantic structure of our pages.
+
+## span
+
+`<span>` element is a generic inline container for text content and it doesn't represent anything, we usually use it for the CSS to target part of text or if we want to add some attributes to part of our text. 
+
+For example:
 
 ```html
-<p>Paragraphs to wrap text paragraph inside.</p>
+<p>Paragraphs to wrap text paragraph inside but <span>part of it should be special and we can use span to do so</span> without affecting whole paragraph.</p>
 ```
 
 How browser will show this ↓↓↓
 
-<p>Paragraphs to wrap text paragraph inside.</p>
+<p>Paragraphs to wrap text paragraph inside but <span>part of it should be special and we can use span to do so</span> without affecting whole paragraph.</p>
 
----
-
-```html
-<ul>
-<li>unordered list with the list items inside</li>
-<li>will be rendered with the bullets by default</li>
-<li>used to render content which is a list of items</li>
-</ul>
-```
-
-How browser will show this ↓↓↓
-
-<ul>
-	<li>unordered list with the list items inside</li>
-	<li>will be rendered with the bullets by default</li>
-	<li>used to render content which is a list of items</li>
-</ul>
-
----
-
-```html
-<ol>
-<li>this is an ordered list</li>
-<li>every element in it will have it's own number</li>
-<li>it could be a list of steps to follow or any other numbered items</li>
-</ol>
-```
-How browser will show this ↓↓↓
-
-<ol>
-	<li>this is an ordered list</li>
-	<li>every element in it will have it's own number</li>
-	<li>it could be a list of steps to follow or any other numbered items</li>
-</ol>
-
----
-
-
-## Images
-
-To render an image with HTML we need to use "img" tag:
-
-```html
-<img src="https://raw.githubusercontent.com/gk3000/artsy_bananas/main/artsy_bananas_00.png" alt="Artsy banana" />
-```
-
-How browser will show this ↓↓↓
-
-<img src="https://raw.githubusercontent.com/gk3000/artsy_bananas/main/artsy_bananas_00.png" alt="Artsy banana" />
-
-First thing you will notice about "img" element is that it is *self-closing*, there are no opening and closing tags but one tag which we open with `<` and close with `/>`.
-
-Another thing we see here is that element has 2 *attributes* inside: `src` and `alt`. 
-
-`src` attribute points to the URL or address of image we want to render and `alt` attribute contains the description of the image which is used if image file is not available or for the screen readers. For the reasons of accessibility it is obligatory to add `alt` attribute to the images we render. 
-
----
-
-## Buttons 
-
-To add a button we will use a "button" element like so:
-
-```html
-<button>Click me</button>
-``` 
-
-This snippet will render a button with the label "Click me"
-
-How browser will show this ↓↓↓
-
-<button>Click me</button>
-
----
-
-> Take a look at [this CodePen](https://codepen.io/GK3000/pen/rNvMoWY) to see how those elements are rendering content.
+So while we can not see any difference at the moment we now have a way to only select "part of it should be special and we can use span to do so" fragment within our paragraph without changing the semantic structure of it. 
