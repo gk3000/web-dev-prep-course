@@ -12,10 +12,10 @@ In the left panel you can write your HTML which you will see in the render part 
 
 Let's create a personal webpage describing a person, duh, with several parts of content: 
 
-Name 
-Image
-Couple of paragraphs about a person 
-Hobbies of this person 
+* Name 
+* Image
+* Couple of paragraphs about a person 
+* Hobbies of this person 
 
 Looks simple, isn't it? 
 
