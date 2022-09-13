@@ -15,6 +15,17 @@ Headings to use on the headings of the pages, sections or subsections:
 <h6>Heading of level 6</h6>
 ```
 
+In the page it will look like this:
+
+<h1>Heading of level 1</h1>
+<h2>Heading of level 2</h2>
+<h3>Heading of level 3</h3>
+<h4>Heading of level 4</h4>
+<h5>Heading of level 5</h5>
+<h6>Heading of level 6</h6>
+
+---
+
 ```html
 <p>Paragraphs to wrap text paragraph inside.</p>
 ```
@@ -27,6 +38,15 @@ Headings to use on the headings of the pages, sections or subsections:
 </ul>
 ```
 
+Results:
+<ul>
+	<li>unordered list with the list items inside</li>
+	<li>will be rendered with the bullets by default</li>
+	<li>used to render content which is a list of items</li>
+</ul>
+
+---
+
 ```html
 <ol>
 	<li>this is an ordered list</li>
@@ -34,6 +54,16 @@ Headings to use on the headings of the pages, sections or subsections:
 	<li>it could be a list of steps to follow or any other numbered items</li>
 </ol>
 ```
+Results:
+
+<ol>
+	<li>this is an ordered list</li>
+	<li>every element in it will have it's own number</li>
+	<li>it could be a list of steps to follow or any other numbered items</li>
+</ol>
+
+---
+
 
 ## Images
 
@@ -61,12 +91,7 @@ This snippet will render a button with the label "Click me"
 
 This is how it will be rendered in the webpage:
 
-<h1>Heading of level 1</h1>
-<h2>Heading of level 2</h2>
-<h3>Heading of level 3</h3>
-<h4>Heading of level 4</h4>
-<h5>Heading of level 5</h5>
-<h6>Heading of level 6</h6>
+
 
 <p>Paragraphs to wrap text paragraph inside.</p>
 
