@@ -42,7 +42,7 @@ Looks simple, isn't it?
 </main>
 ```
 
-How browser will show this ↓↓↓
+## How browser will show this ↓↓↓
 
 <main>
   

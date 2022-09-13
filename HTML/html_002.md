@@ -39,17 +39,31 @@ Imagine we have this passage of text where headings are nested based on the stru
 
 ```html
 <h1>How to learn HTML</h1>
-<h2>Part 1</h2>
-<p>First, understand that HTML is used to describe the structure of our content. Even though you will see, that content in different elements is rendered differently in the browser inside different tags, the goal of HTML is not to affect the visual design of your elements, but to describe them on a structural level only.</p>
-<h2>Part 2</h2>
-<p>As you can see in this snippet, we have the main heading of level 1 and subheadings of level 2. Below we will create a subheading of level 3 which will be part of this current section of content you are reading through.</p>
-<h3>Part 2 section A</h3>
-<p>With h3 above we show to the browser that this heading is just a subheading of Part 2. A bit similar to books where we can have chapters, subchapters, and so on.</p>
-<h2>Part 3</h2>
-<p>Remember, that there are 6 levels of headings we can use: h1, h2, h3, h4, h5, h6.</p>
+	<h2>Part 1</h2>
+	<p>First, understand that HTML is used to describe the structure of our content. Even though you will see, that content in different elements is rendered differently in the browser inside different tags, the goal of HTML is not to affect the visual design of your elements, but to describe them on a structural level only.</p>
+	<h2>Part 2</h2>
+	<p>As you can see in this snippet, we have the main heading of level 1 and subheadings of level 2. Below we will create a subheading of level 3 which will be part of this current section of content you are reading through.</p>
+		<h3>Part 2 section A</h3>
+		<p>With h3 above we show to the browser that this heading is just a subheading of Part 2. A bit similar to books where we can have chapters, subchapters, and so on.</p>
+	<h2>Part 3</h2>
+	<p>Remember, that there are 6 levels of headings we can use: h1, h2, h3, h4, h5, h6.</p>
 ```
 
-> Check out this [CodePen](https://codepen.io/GK3000/pen/gOzwaKE) to see how those elements are rendered.
+How browser will show this ↓↓↓
+
+<h1>How to learn HTML</h1>
+	<h2>Part 1</h2>
+	<p>First, understand that HTML is used to describe the structure of our content. Even though you will see, that content in different elements is rendered differently in the browser inside different tags, the goal of HTML is not to affect the visual design of your elements, but to describe them on a structural level only.</p>
+	<h2>Part 2</h2>
+	<p>As you can see in this snippet, we have the main heading of level 1 and subheadings of level 2. Below we will create a subheading of level 3 which will be part of this current section of content you are reading through.</p>
+		<h3>Part 2 section A</h3>
+		<p>With h3 above we show to the browser that this heading is just a subheading of Part 2. A bit similar to books where we can have chapters, subchapters, and so on.</p>
+	<h2>Part 3</h2>
+	<p>Remember, that there are 6 levels of headings we can use: h1, h2, h3, h4, h5, h6.</p>
+
+---
+
+> Check out this [CodePen](https://codepen.io/GK3000/pen/gOzwaKE) to see how those elements being rendered and the source code.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="html_002" src="https://codepen.io/GK3000/embed/gOzwaKE?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GK3000/pen/gOzwaKE">
